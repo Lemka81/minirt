@@ -1,0 +1,9 @@
+en.subject.pdf
+null.d
+obj/
+libft/libft.a
+miniRT
+minilibx/libmlx.a
+python_calculation
+*.d
+*.o
