@@ -6,7 +6,7 @@
 # include "math.h"
 # include <limits.h>
 # include <float.h>
-# include <fcntl.h> 
+# include <fcntl.h> 				//для парсера
 # define PI	3.1415926535
 # define CIRCLE 0
 # define PLAIN 1
@@ -95,6 +95,10 @@ typedef struct s_viewport
 
 typedef struct	s_store
 {
+	char 		**split; 			//для парсера
+	int 		a_parsed; 			//для парсера
+	int 		c_parsed; 			//для парсера
+	int 		l_parsed; 			//для парсера
 	int			dt;
 	int			ref_count;
 	t_v3		lo; // light pos
